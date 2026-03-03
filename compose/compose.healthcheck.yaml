@@ -1,7 +1,7 @@
 x-healthcheck-defaults: &healthcheck-defaults
   interval: 5s
   timeout: 5s
-  retries: 6
+  retries: 60
 
 x-healthcheck-slow-start: &healthcheck-slow-start
   <<: *healthcheck-defaults
